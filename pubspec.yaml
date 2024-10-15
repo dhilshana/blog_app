@@ -1,0 +1,32 @@
+name: blogapp
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_screenutil: ^5.9.3
+  http: ^1.2.2
+  shared_preferences: ^2.3.2
+  image_picker: ^1.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  fonts:
+   - family: Roboto
+     fonts:
+      - asset: assets/fonts/Roboto-Bold.ttf
+      - asset: assets/fonts/Roboto-Light.ttf
+      - asset: assets/fonts/Roboto-Medium.ttf
+      - asset: assets/fonts/Roboto-Regular.ttf
+      - asset: assets/fonts/Roboto-thin.ttf
+    
